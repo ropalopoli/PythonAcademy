@@ -9,7 +9,6 @@ clientes = int(input("Ingrese número de clientes: "))
 for i in range(clientes):
     print(i)
     edad = 0
-    check_edad = False
     while edad <1 or edad>120:
         edad = int(input("Digame su edad "))
     if edad<0:
